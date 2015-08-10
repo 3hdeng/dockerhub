@@ -3,13 +3,14 @@ npm-debug.log
 
 .DS_Store
 .idea
-.settings/
-
-*.log
-*.heapsnapshot
+.settings
 .coverrun
 .coverdata
-dump.rdb
+*.log
+*.heapsnapshot
 xunit.xml
 
+logs/*
+reports/*
+tmp/*
 sources/
