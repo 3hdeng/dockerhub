@@ -1,5 +1,9 @@
 ## Changelog
 
+### 2.0.1 (2015-08-09)
+
+* Misc. updates
+
 ### 2.0.0 (2015-06-21)
 
 * Remove elasticsearch
