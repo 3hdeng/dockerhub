@@ -1,6 +1,3 @@
-# dockerhub - A repository for various dockerfiles
-# For more information; http://github.com/cmfatih/dockerhub
-#
 # ubuntu
 #
 # Usage

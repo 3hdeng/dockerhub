@@ -14,7 +14,7 @@ dockerhub is a repository for various dockerfiles.
 
 ### Changelog
 
-For all notable changes see [CHANGELOG.md](https://github.com/cmfatih/dockerhub/blob/master/CHANGELOG.md)
+For all notable changes see [CHANGELOG.md](https://github.com/fatihcode/dockerhub/blob/master/CHANGELOG.md)
 
 ### License
 
