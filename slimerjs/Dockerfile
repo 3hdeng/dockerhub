@@ -1,18 +1,15 @@
 # slimerjs
 #
-# Usage
+# Test
 #   docker run cmfatih/slimerjs /usr/bin/slimerjs -v
-#   docker run cmfatih/slimerjs /usr/bin/casperjs | head -n 1
-#   docker run -v `pwd`:/mnt/test cmfatih/slimerjs /usr/bin/slimerjs /mnt/test/test.js
+#   docker run -v `pwd`:/tmp/ cmfatih/slimerjs /usr/bin/slimerjs /tmp/test.js
 
-# VERSION 1.0.1
-
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 
 MAINTAINER cmfatih
 
 # Env
-ENV SLIMERJS_VERSION_F 0.9.1
+ENV SLIMERJS_VERSION_F 0.9.6
 
 # Commands
 RUN \
