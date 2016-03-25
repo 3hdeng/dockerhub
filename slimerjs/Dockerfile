@@ -1,8 +1,8 @@
 # slimerjs
 #
-# Test
+# Usage
 #   docker run cmfatih/slimerjs /usr/bin/slimerjs -v
-#   docker run -v `pwd`:/tmp/ cmfatih/slimerjs /usr/bin/slimerjs /tmp/test.js
+#   docker run -v `pwd`:/scripts cmfatih/slimerjs /usr/bin/slimerjs /scripts/test.js
 
 FROM ubuntu:14.04
 
