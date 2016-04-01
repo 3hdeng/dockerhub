@@ -3,6 +3,7 @@
 # Usage
 #   docker run cmfatih/slimerjs /usr/bin/slimerjs -v
 #   docker run -v `pwd`:/scripts cmfatih/slimerjs /usr/bin/slimerjs /scripts/test.js
+#   docker run -v `pwd`:/scripts cmfatih/slimerjs /usr/bin/casperjs /scripts/test-casperjs.js
 
 FROM ubuntu:14.04
 
@@ -15,7 +16,7 @@ ENV SLIMERJS_VERSION_F 0.9.6
 RUN \
   apt-get update && \
   apt-get upgrade -y && \
-  apt-get install -y vim git wget xvfb libxrender-dev libasound2 libdbus-glib-1-2 libgtk2.0-0 bzip2 && \
+  apt-get install -y vim git wget xvfb libxrender-dev libasound2 libdbus-glib-1-2 libgtk2.0-0 bzip2 python && \
   mkdir -p /srv/var && \
   wget -O /tmp/slimerjs-$SLIMERJS_VERSION_F-linux-x86_64.tar.bz2 http://download.slimerjs.org/releases/$SLIMERJS_VERSION_F/slimerjs-$SLIMERJS_VERSION_F-linux-x86_64.tar.bz2 && \
   tar -xjf /tmp/slimerjs-$SLIMERJS_VERSION_F-linux-x86_64.tar.bz2 -C /tmp && \
